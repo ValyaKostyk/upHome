@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Upqode</title>
+</head>
+<body>
+
+    <!--header-->
+    @@include('_header.html')
+    
+    <!--home banner-slider-->
+    <div class="image-slider swiper-container" id="banner__section">
+        <div class="swiper__content">
+            <h1>Mileage Made Simple</h1>
+            <h3>Motivation And Your Personal Vision An Unbeatable Force</h3>
+
+            <button>Start Free Trial</button>
+        </div>
+
+        <div class="image-slider__wrapper swiper-wrapper">
+            <div class="image-slider__slide swiper-slide">
+                <div class="image-slider__image">
+                    <img src="../img/banner2.jpg" alt="Picture">
+
+                </div>
+            </div>
+
+            <div class="image-slider__slide swiper-slide">
+                <div class="image-slider__image">
+                    <img src="../img/banner1.jpg" alt="Picture">
+
+                </div>
+            </div>
+
+            <div class="image-slider__slide swiper-slide">
+                <div class="image-slider__image">
+                    <img src="../img/banner3.jpg" alt="Picture">
+
+                </div>
+            </div>      
+            
+        </div>
+        
+        <!--slider arrows for navigation-->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        
+
+        <div class="swiper-pagination"></div>
+    </div>     
+
+    <!--contact us section-->  
+    @@include('_contact.html')
+    
+    <!--footer-->
+    @@include('_footer.html')    
+
+
+<script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIEQfjV4unjDAiXahcLhb0_4b9XYVHo-M&callback=initGoogleMaps"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    
+<script src="js/script.min.js"></script>
+</body>
+</html>
